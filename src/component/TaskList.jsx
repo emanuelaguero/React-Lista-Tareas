@@ -125,6 +125,7 @@ const TaskList = () => {
 
             })
             setFlagFormEdit(!flagFormEdit)
+            setInputTask('')
             setTasks(tasks2)
             setOpType("update")
         }
